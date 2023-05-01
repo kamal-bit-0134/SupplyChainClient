@@ -1,0 +1,56 @@
+.loginForm {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .formControl {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #008CBA;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    /* background-color: #0069d9; */
+    background-color: #005ea6 !important;
+  }
+  
+  .alertContainer {
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  #fub:hover {
+    /* background-color: #005ea6; */
+    color: black;
+}

@@ -1,0 +1,61 @@
+.loginForm {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .formControl {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #008CBA;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btnHover {
+    background-color: #0069d9;
+  }
+  
+  .alertContainer {
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  h2{
+    text-align: center;
+  }

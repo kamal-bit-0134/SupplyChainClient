@@ -1,0 +1,65 @@
+.myForm {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  
+  .formRow {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    width: calc(100% / 6);
+  }
+  
+  .formGroup:last-child {
+    margin-right: 0;
+  }
+  
+  .label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .formControl {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .hiddenLabel {
+    visibility: hidden;
+    height: 0;
+    width: 0
+  }
+
+  .btn {
+    margin: 0 auto;
+  }
+
+  .form-heading {
+    text-align: center !important;
+  }
+  #heading{
+    justify-content: center;
+
+  }
+  
